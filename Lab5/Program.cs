@@ -9,7 +9,6 @@ namespace Lab5
     {
         static void Main(string[] args)
         {
-            // Словарь ошибочных слов и их исправлений
             var incorrectWords = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
             {
                 {"првиет", "привет"},
